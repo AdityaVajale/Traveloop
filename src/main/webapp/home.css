@@ -1,0 +1,122 @@
+
+body{
+            font-family: Arial, sans-serif;
+            background-color: rgb(239, 237, 237);
+           margin: 0px;
+}
+
+
+.Header{ 
+ text-align: center;
+ background-color:  #000000;
+ border-style: solid;
+}
+
+.nav-bar {
+     padding:10px;
+     padding-right: 20px;
+    display:flex;
+    justify-content:flex-end; 
+    gap: 10px;
+    border-style: groove;
+}
+.nav-bar a{
+color: rgb(2, 2, 2);
+}
+.nav-bar a:hover{
+color: rgb(235, 212, 11);
+transition-duration:1.9ms;
+}
+
+.input-box{
+   
+   background:#484848;
+   border-radius:7px;
+
+}
+
+.search-bar{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    height: 100px; 
+
+}
+#from{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #616161;
+    padding:20px;
+}
+#GOING-TO{
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #555;
+    padding:20px;
+}
+.Middle-wrapper{
+     max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(252, 252, 252);
+}
+
+.video-section  {
+  background-color:#484848;
+padding-top: 10px;
+
+}
+.video-section video {
+  width: 450px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+#about-us{
+ background: #ffffff;
+}
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 40px 0 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-logo h2 {
+  color: #00c3ff;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 8px 0;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+  font-size: 14px;
+}
